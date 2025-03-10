@@ -115,7 +115,7 @@
   background-color: #000;
   transform: translate(-50%, -50%);
   z-index: 9999;
-  transition: width 0.2s, height 0.2s, background-color 0.2s;
+  transition: width 0.2s, height 0.2s, background-color 0.3s;
 }
 
 .cursor-outline {
@@ -129,7 +129,7 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   transform: translate(-50%, -50%);
   z-index: 9998;
-  transition: width 0.3s, height 0.3s, border-color 0.3s;
+  transition: width 0.3s, height 0.3s, border-color 0.3s, background-color 0.3s;
 }
 
 .link-hover .cursor-dot {
@@ -139,8 +139,29 @@
 }
 
 .link-hover .cursor-outline {
-  width: 40px;
-  height: 40px;
+  width: 50px; /* Larger ring when hovering over links */
+  height: 50px;
   border-color: #000;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for when cursor is over dark backgrounds */
+.over-dark.cursor-dot {
+  background-color: #fff;
+}
+
+.over-dark.cursor-outline {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Combined states */
+.link-hover.over-dark .cursor-dot {
+  background-color: #fff;
+}
+
+.link-hover.over-dark .cursor-outline {
+  width: 50px;
+  height: 50px;
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
