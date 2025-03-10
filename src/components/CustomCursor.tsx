@@ -8,68 +8,45 @@ const CustomCursor = () => {
 
   useEffect(() => {
     const updateCursorPosition = (e: MouseEvent) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      requestAnimationFrame(() => {
+        setPosition({ x: e.clientX, y: e.clientY });
+      });
       
       // Check if cursor is over a dark background
       const element = document.elementFromPoint(e.clientX, e.clientY);
       if (element) {
-        // Get the computed background color of the element
-        const styles = window.getComputedStyle(element);
-        const backgroundColor = styles.backgroundColor;
-        
-        // Check for specific dark elements like the footer
-        const isFooter = element.closest('footer.bg-creeper-black') !== null;
-        
+        const isFooter = element.closest('footer') !== null;
         if (isFooter) {
           setIsOverDarkBackground(true);
-        } else if (backgroundColor && backgroundColor !== 'rgba(0, 0, 0, 0)') {
-          // Parse the RGB values from the background color
-          const rgbMatch = backgroundColor.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
-          
-          if (rgbMatch) {
-            const [, r, g, b] = rgbMatch.map(Number);
-            // If the background is dark (low RGB values)
-            const isDark = (r + g + b) / 3 < 100;
-            setIsOverDarkBackground(isDark);
-          } else {
-            setIsOverDarkBackground(false);
-          }
         } else {
-          // Check parent elements for dark backgrounds
-          let parent = element.parentElement;
-          let depth = 0;
-          const maxDepth = 3; // Don't go too deep in DOM tree
-          
-          while (parent && depth < maxDepth) {
-            const parentStyle = window.getComputedStyle(parent);
-            const parentBg = parentStyle.backgroundColor;
-            
-            if (parent.classList.contains('bg-creeper-black') || 
-                parentBg.includes('rgb(0, 0, 0)') || 
-                parent.tagName.toLowerCase() === 'footer') {
+          let parent = element;
+          while (parent) {
+            const style = window.getComputedStyle(parent);
+            const bg = style.backgroundColor;
+            if (bg.includes('rgb(0, 0, 0)') || parent.classList.contains('bg-black')) {
               setIsOverDarkBackground(true);
-              break;
+              return;
             }
-            
-            parent = parent.parentElement;
-            depth++;
+            parent = parent.parentElement as HTMLElement;
           }
-          
-          if (!parent || depth >= maxDepth) {
-            setIsOverDarkBackground(false);
-          }
+          setIsOverDarkBackground(false);
         }
       }
     };
 
-    const handleLinkHoverStart = () => setIsHovering(true);
-    const handleLinkHoverEnd = () => setIsHovering(false);
+    const handleLinkHoverStart = () => {
+      setIsHovering(true);
+    };
+
+    const handleLinkHoverEnd = () => {
+      setIsHovering(false);
+    };
 
     window.addEventListener("mousemove", updateCursorPosition);
 
-    // Add event listeners to all links and buttons
+    // Add event listeners to all interactive elements
     const interactiveElements = document.querySelectorAll(
-      "a, button, .interactive"
+      'a, button, .interactive, [role="button"]'
     );
 
     interactiveElements.forEach((el) => {
@@ -79,7 +56,6 @@ const CustomCursor = () => {
 
     return () => {
       window.removeEventListener("mousemove", updateCursorPosition);
-      
       interactiveElements.forEach((el) => {
         el.removeEventListener("mouseenter", handleLinkHoverStart);
         el.removeEventListener("mouseleave", handleLinkHoverEnd);
@@ -91,12 +67,16 @@ const CustomCursor = () => {
     <>
       <div
         className={`cursor-dot ${isHovering ? "link-hover" : ""} ${isOverDarkBackground ? "over-dark" : ""}`}
-        style={{ left: position.x, top: position.y }}
-      ></div>
+        style={{ 
+          transform: `translate(${position.x}px, ${position.y}px)`
+        }}
+      />
       <div
         className={`cursor-outline ${isHovering ? "link-hover" : ""} ${isOverDarkBackground ? "over-dark" : ""}`}
-        style={{ left: position.x, top: position.y }}
-      ></div>
+        style={{ 
+          transform: `translate(${position.x}px, ${position.y}px)`
+        }}
+      />
     </>
   );
 };
