@@ -1,17 +1,17 @@
-
 import Navbar from "@/components/Navbar";
 import DotBackground from "@/components/DotBackground";
 import CustomCursor from "@/components/CustomCursor";
 import FloatingImage from "@/components/FloatingImage";
+import Footer from "@/components/Footer";
 
 const About = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <CustomCursor />
       <DotBackground />
       <Navbar />
       
-      <main className="pt-24 pb-16">
+      <main className="pt-24 pb-16 flex-grow">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in">About CreeperHUB</h1>
@@ -98,11 +98,7 @@ const About = () => {
         </div>
       </main>
       
-      <footer className="py-8 text-center text-creeper-gray-500">
-        <div className="container mx-auto px-4">
-          <p>&copy; {new Date().getFullYear()} CreeperHUB. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

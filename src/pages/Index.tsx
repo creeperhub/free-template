@@ -1,9 +1,9 @@
-
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import DotBackground from "@/components/DotBackground";
 import ProjectCarousel, { Project } from "@/components/ProjectCarousel";
 import CustomCursor from "@/components/CustomCursor";
+import Footer from "@/components/Footer";
 
 // Placeholder project data
 const projectsData: Project[] = [
@@ -45,12 +45,12 @@ const Index = () => {
   }, []);
 
   return (
-    <div className={`min-h-screen transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
+    <div className={`min-h-screen flex flex-col transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
       <CustomCursor />
       <DotBackground />
       <Navbar />
       
-      <main className="pt-16">
+      <main className="pt-16 flex-grow">
         <section className="min-h-screen flex items-center justify-center">
           <div className="container mx-auto px-4 pt-12">
             <div className="text-center mb-16 animate-fade-in">
@@ -67,11 +67,7 @@ const Index = () => {
         </section>
       </main>
       
-      <footer className="py-8 text-center text-creeper-gray-500">
-        <div className="container mx-auto px-4">
-          <p>&copy; {new Date().getFullYear()} CreeperHUB. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

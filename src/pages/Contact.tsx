@@ -1,10 +1,10 @@
-
 import { useState } from "react";
 import { Send, Mail, Phone, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import DotBackground from "@/components/DotBackground";
 import CustomCursor from "@/components/CustomCursor";
 import { toast } from "sonner";
+import Footer from "@/components/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -38,12 +38,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <CustomCursor />
       <DotBackground />
       <Navbar />
       
-      <main className="pt-24 pb-16">
+      <main className="pt-24 pb-16 flex-grow">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in">Get in Touch</h1>
@@ -165,11 +165,7 @@ const Contact = () => {
         </div>
       </main>
       
-      <footer className="py-8 text-center text-creeper-gray-500">
-        <div className="container mx-auto px-4">
-          <p>&copy; {new Date().getFullYear()} CreeperHUB. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
