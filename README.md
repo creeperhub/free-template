@@ -1,5 +1,5 @@
  [![Welcome to CreeperHUB](https://raw.githubusercontent.com/creeperhub/.github/refs/heads/main/profile/bannerV1.png)](https://creeperhub.net)
-# Welcome to the template of the CreeperHUB website
+# Welcome to the template of the CreeperHUB website [![img](https://custom-icon-badges.demolab.com/badge/powered_by-creeperhub-white.svg?logo=creeperhub&logoColor=white)](https://creeperhub.net)
 
 A simple, open-source template for a professional website, built with **React**, **Vite**, and **TypeScript**. This repository provides a solid foundation for anyone looking to quickly deploy a portfolio, business, or personal site. It's designed to be easily modified and hosted for free.
 
