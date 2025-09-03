@@ -26,46 +26,40 @@ const TermsOfService = () => {
               
               <h2>2. Use License</h2>
               <p>
-                Permission is granted to temporarily download one copy of the materials on CreeperHUB's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
-              </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odit quas illo laudantium libero distinctio dolore quae? Debitis corrupti modi doloribus, unde nemo voluptatem adipisci pariatur rerum dicta sunt iure.              </p>
               <ul>
-                <li>modify or copy the materials;</li>
-                <li>use the materials for any commercial purpose or for any public display;</li>
-                <li>attempt to reverse engineer any software contained on CreeperHUB's website;</li>
-                <li>remove any copyright or other proprietary notations from the materials; or</li>
-                <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit;</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit;</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit;</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit;</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit;</li>
               </ul>
               
               <h2>3. Disclaimer</h2>
               <p>
-                The materials on CreeperHUB's website are provided "as is". CreeperHUB makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-              </p>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ex voluptatem voluptate facilis dignissimos aliquam, tempora, quas, rem voluptatibus laborum quaerat dolorum tempore facere neque? Ipsum quisquam quis cupiditate obcaecati.              </p>
               
               <h2>4. Limitations</h2>
               <p>
-                In no event shall CreeperHUB or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on CreeperHUB's website, even if CreeperHUB or a CreeperHUB authorized representative has been notified orally or in writing of the possibility of such damage.
-              </p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum expedita consequatur aspernatur, quae hic debitis ipsam quibusdam deleniti ipsum dolor eum magni soluta ab! Minus doloremque nisi alias quos ullam?              </p>
               
               <h2>5. Revisions and Errata</h2>
               <p>
-                The materials appearing on CreeperHUB's website could include technical, typographical, or photographic errors. CreeperHUB does not warrant that any of the materials on its website are accurate, complete or current. CreeperHUB may make changes to the materials contained on its website at any time without notice.
-              </p>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corrupti ea neque laborum eaque quae facilis accusantium eius fuga earum sit, mollitia veniam sequi quisquam quod dicta odio libero quos.              </p>
               
               <h2>6. Links</h2>
               <p>
-                CreeperHUB has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by CreeperHUB of the site. Use of any such linked website is at the user's own risk.
-              </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus commodi pariatur architecto accusamus veniam eos explicabo aspernatur, impedit consequuntur reiciendis numquam, in cupiditate aliquid voluptas ipsa consequatur ex laboriosam beatae.              </p>
               
               <h2>7. Governing Law</h2>
               <p>
-                These terms and conditions are governed by and construed in accordance with the laws of your jurisdiction and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
-              </p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sit beatae voluptatem maiores quia commodi voluptas perspiciatis explicabo illo nulla, architecto aut ab tempora. Iste inventore earum eaque eligendi accusantium.              </p>
               
               <h2>8. Contact Us</h2>
               <p>
                 If you have any questions about these Terms of Service, please contact us at:
                 <br />
-                Email: legal@creeperhub.com
+                Email: legal@something.com
                 <br />
                 Address: 123 Design Street, Digital City, DC 10101
               </p>

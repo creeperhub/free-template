@@ -21,61 +21,50 @@ const PrivacyPolicy = () => {
               
               <h2>1. Introduction</h2>
               <p>
-                Welcome to CreeperHUB. We respect your privacy and are committed to protecting your personal data. 
-                This privacy policy will inform you about how we look after your personal data when you visit our 
-                website and tell you about your privacy rights and how the law protects you.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quam id veritatis eveniet! Ullam totam porro quam illum, sit impedit ipsum accusantium fugit quis animi repellendus in enim ex quos.
               </p>
               
               <h2>2. Data We Collect</h2>
               <p>
-                We may collect, use, store and transfer different kinds of personal data about you which we have 
-                grouped together as follows:
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ad tempora nesciunt ipsam provident soluta impedit repellat quas quasi nemo doloremque perferendis autem cupiditate fugit officiis culpa, illum consectetur aliquid.:
               </p>
               <ul>
-                <li>Identity Data includes first name, last name, username or similar identifier.</li>
-                <li>Contact Data includes email address and telephone numbers.</li>
-                <li>Technical Data includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.</li>
-                <li>Usage Data includes information about how you use our website and services.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
               </ul>
               
               <h2>3. How We Use Your Data</h2>
               <p>
-                We will only use your personal data when the law allows us to. Most commonly, we will use your 
-                personal data in the following circumstances:
+                WLorem ipsum dolor sit, amet consectetur adipisicing elit.:
               </p>
               <ul>
-                <li>Where we need to perform the contract we are about to enter into or have entered into with you.</li>
-                <li>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li>
-                <li>Where we need to comply with a legal obligation.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
               </ul>
               
               <h2>4. Data Security</h2>
               <p>
-                We have put in place appropriate security measures to prevent your personal data from being 
-                accidentally lost, used or accessed in an unauthorized way, altered or disclosed. In addition, 
-                we limit access to your personal data to those employees, agents, contractors and other third 
-                parties who have a business need to know.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nobis dolor doloremque quae voluptatem, dolorum quisquam tenetur eos nostrum odio iste officiis quos necessitatibus, repudiandae perferendis vitae tempore sed corporis.
               </p>
               
               <h2>5. Data Retention</h2>
               <p>
-                We will only retain your personal data for as long as reasonably necessary to fulfill the purposes 
-                we collected it for, including for the purposes of satisfying any legal, regulatory, tax, accounting 
-                or reporting requirements.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eveniet sapiente mollitia, doloribus voluptatum doloremque minima minus soluta assumenda perspiciatis perferendis earum, expedita dolores? Maxime ipsa magni commodi fugiat quo.
               </p>
               
               <h2>6. Your Legal Rights</h2>
               <p>
-                Under certain circumstances, you have rights under data protection laws in relation to your personal data, 
-                including the right to request access, correction, erasure, restriction, transfer, to object to processing, 
-                to portability of data and (where the lawful ground of processing is consent) to withdraw consent.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illum dignissimos autem enim facere ipsa tempore sequi provident ducimus rerum aperiam tenetur exercitationem a doloribus, culpa in, soluta distinctio minus!
               </p>
               
               <h2>7. Contact Us</h2>
               <p>
                 If you have any questions about this privacy policy or our privacy practices, please contact us at:
                 <br />
-                Email: privacy@creeperhub.com
+                Email: privacy@something.com
                 <br />
                 Address: 123 Design Street, Digital City, DC 10101
               </p>

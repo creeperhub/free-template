@@ -14,16 +14,14 @@ const About = () => {
       <main className="pt-24 pb-16 flex-grow">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in">About CreeperHUB</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in">About .....</h1>
             
             <div className="mb-12 flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/2">
                 <p className="text-lg text-creeper-gray-600 mb-4 animate-fade-in">
-                  CreeperHUB is a modern showcase of innovative projects that push the boundaries of digital design and development. Our mission is to create compelling digital experiences that inspire and engage.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam aut iure nisi labore laboriosam. Error, ipsa delectus quam doloribus, alias obcaecati labore provident autem iure tempora pariatur, repellendus doloremque?                </p>
                 <p className="text-lg text-creeper-gray-600 animate-fade-in">
-                  Founded in 2022, we've been at the forefront of web technology, constantly exploring new techniques and approaches to create memorable digital products.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt quas, ipsum ratione culpa labore ex illo dolores dicta unde accusantium officia quaerat consectetur dolore numquam hic. Vel, enim aut?                </p>
               </div>
               <div className="md:w-1/2">
                 <FloatingImage 
@@ -36,33 +34,31 @@ const About = () => {
             <div className="mb-16">
               <h2 className="text-2xl font-bold mb-4">Our Philosophy</h2>
               <p className="text-creeper-gray-600 mb-6">
-                We believe in the power of minimalist design, focusing on the essentials while eliminating the unnecessary. Our black and white aesthetic emphasizes content and functionality, creating timeless designs that stand out in a world of visual noise.
-              </p>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic obcaecati sequi, ut distinctio expedita excepturi? Voluptates ex corporis nostrum animi illo dolorem tempora sunt eaque, commodi minima, excepturi labore! Autem?              </p>
               <p className="text-creeper-gray-600">
-                Every project at CreeperHUB begins with a deep understanding of user needs and business goals. We then apply our technical expertise and creative thinking to craft solutions that exceed expectations and deliver tangible results.
-              </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis ad placeat laborum, dolore cupiditate tempora magnam sunt quasi minima beatae aspernatur recusandae nesciunt! Voluptatem quo quaerat quisquam voluptatum sapiente?              </p>
             </div>
             
             <div className="mb-16">
               <h2 className="text-2xl font-bold mb-6">Our Expertise</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                  <h3 className="font-bold mb-2">Web Development</h3>
-                  <p className="text-creeper-gray-600">Creating responsive, fast-loading websites with modern frameworks and clean code.</p>
+                  <h3 className="font-bold mb-2">Lorem</h3>
+                  <p className="text-creeper-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                  <h3 className="font-bold mb-2">UI/UX Design</h3>
-                  <p className="text-creeper-gray-600">Crafting intuitive interfaces and seamless user experiences that delight and engage.</p>
+                  <h3 className="font-bold mb-2">Lorem</h3>
+                  <p className="text-creeper-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                  <h3 className="font-bold mb-2">Interactive Experiences</h3>
-                  <p className="text-creeper-gray-600">Building immersive digital environments with cutting-edge animation and 3D technologies.</p>
+                  <h3 className="font-bold mb-2">Lorem</h3>
+                  <p className="text-creeper-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
             </div>
             
             <div>
-              <h2 className="text-2xl font-bold mb-6">Meet the Team</h2>
+              <h2 className="text-2xl font-bold mb-6">Lorem</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {[
                   {
