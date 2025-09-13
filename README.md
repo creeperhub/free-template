@@ -27,7 +27,7 @@ You'll need to have [Node.js](https://nodejs.org/) installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/creeperhub/free-template.git](https://github.com/creeperhub/free-template.git)
+    git clone https://github.com/creeperhub/free-template.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -48,7 +48,7 @@ You'll need to have [Node.js](https://nodejs.org/) installed on your machine.
     ```bash
     npm run dev
     ```
-2.  The application will open in your default browser at `http://localhost:5173`.
+2.  The application will open in your default browser at `http://localhost:5173` or `http://localhost:8080`.
 
 ---
 
